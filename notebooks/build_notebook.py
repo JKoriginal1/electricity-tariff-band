@@ -73,7 +73,7 @@ exec((HERE / "cells.py").read_text())
 index = "\n".join(f"- [{label}](#{anchor(label)})" for _, label in LABELS
                   if label.startswith(("Figure", "Table")))
 cells.insert(1, nbf.v4.new_markdown_cell("### Figures and tables in this notebook\n"
-                                         "Numbers match the written report.\n\n" + index))
+                                         "Figure numbers match the written report.\n\n" + index))
 nb = nbf.v4.new_notebook()
 nb["cells"] = cells
 nb["metadata"]["kernelspec"] = {"name": "python3", "display_name": "Python 3", "language": "python"}
