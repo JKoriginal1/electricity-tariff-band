@@ -19,3 +19,5 @@ mlops/mlflow.db
 mlops/mlartifacts/
 mlruns/
 models/archive/
+
+data/*.csv
