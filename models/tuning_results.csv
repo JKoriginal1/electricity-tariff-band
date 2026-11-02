@@ -1,0 +1,10 @@
+model,cv_accuracy,cv_sd,train_accuracy,fit_time_s,best_params
+EBM (new algorithm),0.8926,0.0022,0.9017,398,"{'interactions': 15, 'learning_rate': 0.0053, 'max_bins': 256, 'max_leaves': 4, 'min_samples_leaf': 43, 'outer_bags': 14}"
+Logistic Regression,0.8842,0.0023,0.8883,6,"{'C': 0.9847, 'class_weight': None}"
+Decision Tree,0.8917,0.0019,0.8951,13,"{'criterion': 'gini', 'max_depth': 6, 'min_samples_leaf': 97}"
+KNN,0.7417,0.0174,0.7668,35,"{'n_neighbors': 79, 'weights': 'uniform'}"
+Random Forest,0.8938,0.0019,0.9056,163,"{'max_depth': 13, 'max_features': 0.5, 'min_samples_leaf': 23, 'n_estimators': 457}"
+XGBoost,0.8937,0.0025,0.9074,92,"{'colsample_bytree': 0.9162, 'learning_rate': 0.0189, 'max_depth': 5, 'min_child_weight': 21, 'n_estimators': 360, 'reg_lambda': 0.5013, 'subsample': 0.8099}"
+LightGBM,0.8928,0.0009,0.9136,144,"{'colsample_bytree': 0.8777, 'learning_rate': 0.0357, 'min_child_samples': 63, 'n_estimators': 305, 'num_leaves': 11, 'reg_lambda': 0.2663, 'subsample': 0.9878, 'subsample_freq': 1}"
+CatBoost,0.8938,0.0018,0.8969,87,"{'depth': 4, 'iterations': 320, 'l2_leaf_reg': 1.5958, 'learning_rate': 0.0286}"
+Stacking,,,,75,"{'base': 'RF+XGB+LGBM+CatBoost', 'meta': 'LogReg'}"

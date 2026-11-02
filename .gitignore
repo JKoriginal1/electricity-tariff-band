@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.venv/
+catboost_info/
+.ipynb_checkpoints/
+.pytest_cache/
+# RECON-SL raw files: obtain from IEEE DataPort (licence not stated), do not publish
+data/recon_sl/
+
+# Written report and demo video are submitted separately, not published
+reports/*.pdf
+reports/*.docx
+reports/report.html
+reports/build_report.py
+reports/Demo_Video_Script.*
+
+# MLflow local store (recreate with: python mlops/track_experiments.py)
+mlops/mlflow.db
+mlops/mlartifacts/
+mlruns/
+models/archive/

@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements-api.txt pytest httpx
+
+      - name: Run tests
+        run: pytest -q tests/test_project.py
+
+  docker:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build API image
+        run: docker build -t anaemia-risk-api .
+
+      - name: Smoke-test container
+        run: |
+          docker run -d -p 8000:8000 --name api anaemia-risk-api
+          for i in $(seq 1 20); do curl -sf http://localhost:8000/health && break; sleep 2; done
+          curl -sf -X POST http://localhost:8000/predict \
+            -H "Content-Type: application/json" \
+            -d '{"bills_last_12": [150,160,175,190,185,170,160,158,165,172,178,182], "target_month": 4}'
