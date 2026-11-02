@@ -7796,7 +7796,7 @@ a.anchor-link {
 <!-- End of mermaid configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
 <main>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3af79709">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3572d80c">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7848,7 +7848,43 @@ XGBoost, LightGBM, CatBoost and Stacking</li>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=68830741">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7cc4b758">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Figures-and-tables-in-this-notebook">Figures and tables in this notebook<a class="anchor-link" href="#Figures-and-tables-in-this-notebook">¶</a></h3><p>Figure numbers match the written report.</p>
+<ul>
+<li><a href="#figure-1">Figure 1 — Distribution of monthly bills and average consumption over time</a></li>
+<li><a href="#figure-1b">Figure 1b — Data overview</a></li>
+<li><a href="#figure-1c">Figure 1c — Correlation of household features with next-month units</a></li>
+<li><a href="#figure-2">Figure 2 — Band mix by forecast month (seasonality)</a></li>
+<li><a href="#table-1">Table 1 — Train / validation / test split (by household)</a></li>
+<li><a href="#table-2">Table 2 — Naive baseline on the validation set</a></li>
+<li><a href="#table-3">Table 3 — Effect of tuning: default vs tuned accuracy</a></li>
+<li><a href="#table-4">Table 4 — Tuned models: CV accuracy and best hyperparameters</a></li>
+<li><a href="#table-5">Table 5 — Validation results (all models)</a></li>
+<li><a href="#table-6">Table 6 — Paired bootstrap: EBM vs every other model</a></li>
+<li><a href="#table-7">Table 7 — Final test results (unseen households)</a></li>
+<li><a href="#figure-3">Figure 3 — Confusion matrices (test set)</a></li>
+<li><a href="#figure-4">Figure 4 — ROC curves (test set)</a></li>
+<li><a href="#table-8">Table 8 — Near-edge analysis: EBM vs naive rule</a></li>
+<li><a href="#table-9">Table 9 — Fairness: accuracy by socio-economic class, house type and solar</a></li>
+<li><a href="#figure-5">Figure 5 — EBM term importance</a></li>
+<li><a href="#figure-6">Figure 6 — EBM shape functions (what the model learned)</a></li>
+<li><a href="#table-10">Table 10 — Appliance effects on the High-band score</a></li>
+<li><a href="#figure-7">Figure 7 — Partial dependence (PDP) and ICE</a></li>
+<li><a href="#figure-8">Figure 8 — SHAP values for P(High) + SHAP vs EBM ranking</a></li>
+<li><a href="#figure-9">Figure 9 — Local explanations: EBM (top) vs LIME (bottom)</a></li>
+<li><a href="#table-11">Table 11 — Usage scenarios: what if the household used less?</a></li>
+<li><a href="#figure-10">Figure 10 — New-household (no bills) model and appliance effects</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=34010c67">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7900,7 +7936,7 @@ XGBoost, LightGBM, CatBoost and Stacking</li>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d771cb17">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1c977975">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7922,7 +7958,7 @@ identified only by an anonymous ID such as <code>ID0001</code>.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=721950dd">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=564fa0db">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8016,7 +8052,18 @@ Raw 'consumption' values that were text with thousands separators (e.g. '1,159')
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a0ca6da6">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9241e45a">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div id="figure-1" style="background:#0b4f6c;color:#fff;padding:7px 14px;border-radius:5px;font-weight:600;font-size:15px;margin-top:6px">Figure 1 — Distribution of monthly bills and average consumption over time</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=2c084f64">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8071,7 +8118,7 @@ Name: kwh, dtype: float64
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d7478035">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9a08b03a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8090,7 +8137,7 @@ missing values, so they were converted.</li>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f05912e6">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ccb8b9db">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8113,7 +8160,7 @@ categories and binning natively.</li>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=3e6f5697">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=7613a4b3">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8421,7 +8468,7 @@ categories and binning natively.</li>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=03367c56">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f9a7bde6">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8440,7 +8487,7 @@ last year (seasonality); and the number of zero bills.</li>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=ac393d47">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=9c7ff3ef">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8628,7 +8675,7 @@ last year (seasonality); and the number of zero bills.</li>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ad211f6c">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3736a999">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8638,7 +8685,18 @@ last year (seasonality); and the number of zero bills.</li>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=af0a3bd0">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=589a3d8f">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div id="figure-1b" style="background:#0b4f6c;color:#fff;padding:7px 14px;border-radius:5px;font-weight:600;font-size:15px;margin-top:6px">Figure 1b — Data overview</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=ac7744a4">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8674,7 +8732,18 @@ last year (seasonality); and the number of zero bills.</li>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=0c1e6fe3">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f5c8a6a8">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div id="figure-1c" style="background:#0b4f6c;color:#fff;padding:7px 14px;border-radius:5px;font-weight:600;font-size:15px;margin-top:6px">Figure 1c — Correlation of household features with next-month units</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=e9846f92">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8789,7 +8858,18 @@ last year (seasonality); and the number of zero bills.</li>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=7da93053">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1b64c093">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div id="figure-2" style="background:#0b4f6c;color:#fff;padding:7px 14px;border-radius:5px;font-weight:600;font-size:15px;margin-top:6px">Figure 2 — Band mix by forecast month (seasonality)</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=3310eeb5">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8820,7 +8900,7 @@ last year (seasonality); and the number of zero bills.</li>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=bf4bdec0">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c2411571">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8841,7 +8921,7 @@ correlated with consumption, while <strong>solar panels</strong> reduce billed u
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=01f813ed">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5a5a7977">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8857,7 +8937,7 @@ average of the last 3 bills"</em>. This is how a household or utility would gues
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b91a101f">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=639fe63a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8895,7 +8975,18 @@ households are also held back completely as "new customers" for the inference de
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=2c815ee0">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7b8cacd7">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div id="table-1" style="background:#0b4f6c;color:#fff;padding:7px 14px;border-radius:5px;font-weight:600;font-size:15px;margin-top:6px">Table 1 — Train / validation / test split (by household)</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=80fbd5ca">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8996,7 +9087,18 @@ households are also held back completely as "new customers" for the inference de
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=d786ca15">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3ae4a69d">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div id="table-2" style="background:#0b4f6c;color:#fff;padding:7px 14px;border-radius:5px;font-weight:600;font-size:15px;margin-top:6px">Table 2 — Naive baseline on the validation set</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=3030b6d0">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9076,7 +9178,7 @@ households are also held back completely as "new customers" for the inference de
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=fdcf3cf1">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5bb2e3b2">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9156,7 +9258,18 @@ folds) on the training households</strong>, scored by accuracy. The EBM search c
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=bd000182">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=93433909">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div id="hyperparameter-tuning-log-randomizedsearchcv-groupkfold" style="background:#0b4f6c;color:#fff;padding:7px 14px;border-radius:5px;font-weight:600;font-size:15px;margin-top:6px">Hyperparameter tuning log (RandomizedSearchCV + GroupKFold)</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=788c9076">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9294,7 +9407,18 @@ folds) on the training households</strong>, scored by accuracy. The EBM search c
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=fa940123">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=36217211">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div id="table-3" style="background:#0b4f6c;color:#fff;padding:7px 14px;border-radius:5px;font-weight:600;font-size:15px;margin-top:6px">Table 3 — Effect of tuning: default vs tuned accuracy</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=5884c737">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9390,7 +9514,18 @@ folds) on the training households</strong>, scored by accuracy. The EBM search c
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=5fc32b3f">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=96a879ee">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div id="table-4" style="background:#0b4f6c;color:#fff;padding:7px 14px;border-radius:5px;font-weight:600;font-size:15px;margin-top:6px">Table 4 — Tuned models: CV accuracy and best hyperparameters</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=1a868753">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9537,7 +9672,7 @@ folds) on the training households</strong>, scored by accuracy. The EBM search c
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=871b843a">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=cae0c808">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9549,7 +9684,18 @@ and <strong>log-loss</strong> (probability quality). Every model is compared wit
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=196048bf">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=dc1d3564">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div id="table-5" style="background:#0b4f6c;color:#fff;padding:7px 14px;border-radius:5px;font-weight:600;font-size:15px;margin-top:6px">Table 5 — Validation results (all models)</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=71b5300c">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9707,7 +9853,18 @@ and <strong>log-loss</strong> (probability quality). Every model is compared wit
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=95082df8">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ad2f2963">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div id="table-6" style="background:#0b4f6c;color:#fff;padding:7px 14px;border-radius:5px;font-weight:600;font-size:15px;margin-top:6px">Table 6 — Paired bootstrap: EBM vs every other model</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=96e32259">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9848,7 +10005,7 @@ and <strong>log-loss</strong> (probability quality). Every model is compared wit
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=4c96e9e7">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3153ca24">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9872,7 +10029,18 @@ because its exact explanations are what make the app useful.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=5e079e84">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=12cff52b">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div id="table-7" style="background:#0b4f6c;color:#fff;padding:7px 14px;border-radius:5px;font-weight:600;font-size:15px;margin-top:6px">Table 7 — Final test results (unseen households)</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a3eba08a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10043,7 +10211,18 @@ because its exact explanations are what make the app useful.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=2a76a851">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9b90c108">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div id="figure-3" style="background:#0b4f6c;color:#fff;padding:7px 14px;border-radius:5px;font-weight:600;font-size:15px;margin-top:6px">Figure 3 — Confusion matrices (test set)</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=978f35fd">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10094,7 +10273,18 @@ weighted avg      0.895     0.896     0.895      7249
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=56f37c6f">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=113726a8">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div id="figure-4" style="background:#0b4f6c;color:#fff;padding:7px 14px;border-radius:5px;font-weight:600;font-size:15px;margin-top:6px">Figure 4 — ROC curves (test set)</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=e3806b81">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10128,7 +10318,7 @@ weighted avg      0.895     0.896     0.895      7249
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7d45d7a1">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ec8cbf81">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10138,7 +10328,18 @@ weighted avg      0.895     0.896     0.895      7249
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=af3fce18">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=94446f37">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div id="table-8" style="background:#0b4f6c;color:#fff;padding:7px 14px;border-radius:5px;font-weight:600;font-size:15px;margin-top:6px">Table 8 — Near-edge analysis: EBM vs naive rule</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=86879cd0">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10233,7 +10434,18 @@ weighted avg      0.895     0.896     0.895      7249
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=75a4b4a2">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=6e5617f7">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div id="robustness-checks" style="background:#0b4f6c;color:#fff;padding:7px 14px;border-radius:5px;font-weight:600;font-size:15px;margin-top:6px">Robustness checks — overfitting, temporal hold-out, history-only model</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=7148db48">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10290,7 +10502,18 @@ weighted avg      0.895     0.896     0.895      7249
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=0cf7ccbd">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e4ed4142">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div id="table-9" style="background:#0b4f6c;color:#fff;padding:7px 14px;border-radius:5px;font-weight:600;font-size:15px;margin-top:6px">Table 9 — Fairness: accuracy by socio-economic class, house type and solar</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=24c916bf">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10453,7 +10676,7 @@ weighted avg      0.895     0.896     0.895      7249
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5e44ce59">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1bfcfd67">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10487,7 +10710,7 @@ Solar homes (0.883) are slightly harder because their grid bills depend on sunsh
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=48917553">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a4c5cd88">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10528,7 +10751,18 @@ Solar homes (0.883) are slightly harder because their grid bills depend on sunsh
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=e4e8b564">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=cd875e22">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div id="figure-5" style="background:#0b4f6c;color:#fff;padding:7px 14px;border-radius:5px;font-weight:600;font-size:15px;margin-top:6px">Figure 5 — EBM term importance</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=620a715e">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10670,7 +10904,18 @@ Solar homes (0.883) are slightly harder because their grid bills depend on sunsh
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=bb2b38e6">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5f7f7f3e">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div id="figure-6" style="background:#0b4f6c;color:#fff;padding:7px 14px;border-radius:5px;font-weight:600;font-size:15px;margin-top:6px">Figure 6 — EBM shape functions (what the model learned)</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=6703911b">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10713,7 +10958,18 @@ Solar homes (0.883) are slightly harder because their grid bills depend on sunsh
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=cbb49236">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=68417216">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div id="table-10" style="background:#0b4f6c;color:#fff;padding:7px 14px;border-radius:5px;font-weight:600;font-size:15px;margin-top:6px">Table 10 — Appliance effects on the High-band score</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=9431c92f">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10846,7 +11102,7 @@ Solar homes (0.883) are slightly harder because their grid bills depend on sunsh
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d4f1ee1c">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=4ff79aa8">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10872,7 +11128,18 @@ geyser, household size raise the High score), because the bills already carry th
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=e8bcc854">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ddca191c">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div id="figure-7" style="background:#0b4f6c;color:#fff;padding:7px 14px;border-radius:5px;font-weight:600;font-size:15px;margin-top:6px">Figure 7 — Partial dependence (PDP) and ICE</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=089711da">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10912,7 +11179,7 @@ geyser, household size raise the High score), because the bills already carry th
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3b25c209">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=60712ebf">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10932,7 +11199,18 @@ average effect because most households are far from an edge.</li>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=61d2e4db">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d1a111ab">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div id="figure-8" style="background:#0b4f6c;color:#fff;padding:7px 14px;border-radius:5px;font-weight:600;font-size:15px;margin-top:6px">Figure 8 — SHAP values for P(High) + SHAP vs EBM ranking</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=0d922cd5">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -11083,7 +11361,7 @@ average effect because most households are far from an edge.</li>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=614186c7">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5ddc7d3f">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -11104,7 +11382,18 @@ that the explanations reflect the model, not an artefact of one method.</li>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=1370420b">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2bfedc22">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div id="figure-9" style="background:#0b4f6c;color:#fff;padding:7px 14px;border-radius:5px;font-weight:600;font-size:15px;margin-top:6px">Figure 9 — Local explanations: EBM (top) vs LIME (bottom)</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=ee4087c1">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -11171,7 +11460,7 @@ Near the 60 edge | top EBM terms: {'min_last_12': -0.03, 'avg_last_3': -0.021, '
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b7815118">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=66b0b507">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -11196,7 +11485,18 @@ consumption.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=0beb79ea">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c650a072">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div id="table-11" style="background:#0b4f6c;color:#fff;padding:7px 14px;border-radius:5px;font-weight:600;font-size:15px;margin-top:6px">Table 11 — Usage scenarios: what if the household used less?</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=3607162a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -11283,7 +11583,7 @@ consumption.</p>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=82c1af9d">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b2eca71e">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -11296,7 +11596,18 @@ less accurate, but this is where the appliance effects can be estimated properly
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=b1c5d09a">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e48c351a">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div id="figure-10" style="background:#0b4f6c;color:#fff;padding:7px 14px;border-radius:5px;font-weight:600;font-size:15px;margin-top:6px">Figure 10 — New-household (no bills) model and appliance effects</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a7ee735b">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -11434,7 +11745,7 @@ less accurate, but this is where the appliance effects can be estimated properly
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2ecc3de3">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=90f606fc">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -11445,7 +11756,18 @@ FastAPI service load exactly this file.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=448e11c8">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=719b4580">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div id="saved-model-and-metadata" style="background:#0b4f6c;color:#fff;padding:7px 14px;border-radius:5px;font-weight:600;font-size:15px;margin-top:6px">Saved model and metadata</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=92b7913d">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -11469,6 +11791,9 @@ FastAPI service load exactly this file.</p>
         <span class="s2">"data_citation"</span><span class="p">:</span> <span class="s2">"LIRNEasia &amp; LECO (2026). Residential Electricity Consumption Dataset for Sri Lanka (RECON-SL). IEEE DataPort. doi:10.21227/n1dk-q860"</span><span class="p">}</span>
 <span class="p">(</span><span class="n">MODELS</span> <span class="o">/</span> <span class="s2">"model_meta.json"</span><span class="p">)</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">meta</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="nb">str</span><span class="p">))</span>
 <span class="n">test_table</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">MODELS</span> <span class="o">/</span> <span class="s2">"model_comparison.csv"</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">cv_table</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">MODELS</span> <span class="o">/</span> <span class="s2">"tuning_results.csv"</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>  <span class="c1"># used by mlops/track_experiments.py</span>
+<span class="n">val_table</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">MODELS</span> <span class="o">/</span> <span class="s2">"validation_results.csv"</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">monitoring</span><span class="p">;</span> <span class="n">monitoring</span><span class="o">.</span><span class="n">save_reference</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">MODELS</span> <span class="o">/</span> <span class="s2">"drift_reference.json"</span><span class="p">)</span>  <span class="c1"># training baseline for drift checks</span>
 <span class="n">lime_bg</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">MODELS</span> <span class="o">/</span> <span class="s2">"lime_background.csv"</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">meta</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="nb">str</span><span class="p">))</span>
 </pre></div>
@@ -11607,7 +11932,18 @@ FastAPI service load exactly this file.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=9b70dcb2">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7b371aae">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div id="inference-demo" style="background:#0b4f6c;color:#fff;padding:7px 14px;border-radius:5px;font-weight:600;font-size:15px;margin-top:6px">Inference demo — reload the saved model and predict</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=6471b3d0">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -11707,7 +12043,7 @@ FastAPI service load exactly this file.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=635f38ca">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=33eeb7b1">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -11740,7 +12076,7 @@ FastAPI service load exactly this file.</p>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=79feabac">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=cd648a6a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
